@@ -1,0 +1,19 @@
+form h2 {
+    color:transparent;
+}
+.footer-section .frame-inner {
+	padding: 0.5em 0 0.5em 0 ;
+}
+.footer-section-meta {
+    color: #fff;
+}
+.footer-section p {
+    font-size:.7em;
+    margin-bottom:0;
+}
+.footer-section .frame {
+    padding: 0;
+}
+.footer-section-meta .frame-inner > *:not(:first-child) {
+    margin-top:0;
+}

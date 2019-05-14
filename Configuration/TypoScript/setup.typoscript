@@ -10,6 +10,7 @@
 page {
     includeCSS {
         theme = EXT:printanet9/Resources/Public/Scss/Theme/theme.scss
+        printanet_layout = EXT:printanet9/Resources/Public/Css/printanet.css
     }
 
     includeJSLibs {
@@ -28,3 +29,14 @@ page {
         printanet9_scripts = EXT:printanet9/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
+
+################################
+#### ADDED BY EDUARDO FRANK ####
+################################
+config.contentObjectExceptionHandler = 0
+config.admPanel = 0
+
+#### FORM CONFIGURATION ###
+plugin.tx_form.settings.yamlConfigurations.100 = EXT:printanet9/Configuration/Form/FormSetup.yaml
+module.tx_form.settings.yamlConfigurations.100 = EXT:printanet9/Configuration/Form/FormSetup.yaml
+

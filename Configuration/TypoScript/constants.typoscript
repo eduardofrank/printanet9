@@ -9,11 +9,11 @@
 ############
 page {
     logo {
-        file = EXT:printanet9/Resources/Public/Images/logo.svg
+        file = EXT:printanet9/Resources/Public/Images/logo-printanet.png
         fileInverted = EXT:printanet9/Resources/Public/Images/logo-inverted.svg
-        height = 52
-        width = 192
-        alt = printanet9
+        height = 73
+        width = 300
+        alt = Printanet
         linktitle = printanet9
     }
     favicon {
@@ -58,3 +58,7 @@ plugin.bootstrap_package.settings.scss {
     primary = #eb3e4a
     secondary = #013859
 }
+
+################################
+#### ADDED BY EDUARDO FRANK ####
+################################
